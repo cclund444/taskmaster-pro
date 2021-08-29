@@ -1,5 +1,4 @@
 var tasks = {};
-
 var createTask = function(taskText, taskDate, taskList) {
   // create elements that make up a task item
   var taskLi = $("<li>").addClass("list-group-item");
